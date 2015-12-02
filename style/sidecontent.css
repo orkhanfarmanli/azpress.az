@@ -1,0 +1,97 @@
+
+/*Little news box*/
+.lilBoxWrapper{
+  width: 100%;
+  height: 300px;
+  vertical-align: middle;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  text-align: left;
+  padding-top:25px;
+}
+
+.lilBoxWrapper h4{
+  font-weight: bold;
+  width: 100%;
+  margin: 0;
+
+}
+.lilBoxWrapper{
+
+}
+
+
+.lilnewsBox{
+  width: 100%;
+  height: 60px;
+  position: relative;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+
+
+/*Little news box*/
+
+.lilImg{
+  float: left;
+  width:60px;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5%;
+
+}
+.lilImg img{
+  height: 100%;
+}
+
+.lilText{
+  width: 70%;
+  height: 100%;
+  font-size: 12px;
+  overflow: hidden;
+}
+.lilText span{
+  font-weight: bold;
+}
+
+.newsTitle{
+  height: 80%;
+}
+.newsTitle:hover{
+  cursor: pointer;
+  color: #F24024;
+}
+
+#imgBox1{
+  background-image: url('../img/erdo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#imgBox2{
+  background-image: url('../img/isid.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#imgBox3{
+  background-image: url('../img/terane.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.lilTextDetails{
+  color: gray;
+  font-size: 10px;
+}
+#lilTextLeftDetails{
+  float: left;
+}
+#lilTextRightDetails{
+  float: right;
+}
+#lilTextRightDetails i:first-child{
+  margin-right: 10px;
+}
+
+
+/* Inner Box */

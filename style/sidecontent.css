@@ -9,18 +9,14 @@
   justify-content: space-between;
   text-align: left;
   padding-top:25px;
+  padding-bottom: 25px;
 }
 
 .rightSideLilBoxWrapper h4{
   font-weight: bold;
   width: 100%;
   margin: 0;
-
 }
-.rightSideLilBoxWrapper{
-
-}
-
 
 .rightSideLilnewsBox{
   width: 100%;

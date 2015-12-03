@@ -1,0 +1,118 @@
+ /*Inner Box */
+
+.newsBlock{
+  height: 400px;
+  width: 100%;
+  border-radius: 2px;
+  display: inline-flex;
+  background: white;
+  transition: 0.2s;
+}
+.newsBlock:hover{
+  cursor: pointer;
+  box-shadow: 0 3px 20px 0 gray;
+}
+/*Big Box on the left*/
+
+.bigBoxWrapper{
+  width: 48%;
+  height: 95%;
+  transition:  0.2s;
+  margin:10px;
+  padding:0;
+}
+.bigBoxWrapper:hover{
+  box-shadow: 0 1px 10px 0 gray;
+}
+
+.bigImgDiv{
+width: 100%;
+height: 70%;
+overflow: hidden;
+}
+
+.bigImgDiv img{
+  height: 100%;
+
+}
+
+
+.bigTextDiv{
+width: 100%;
+height: 25%;
+margin: 15px 0;
+font-size: 15px;
+text-align: justify;
+overflow: hidden;
+padding: 5px;
+}
+
+/*Big Box on the left*/
+
+/*Little news box*/
+.lilBoxWrapper{
+  width: 48%;
+  height: 95%;
+  margin: 10px;
+  vertical-align: middle;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+
+}
+
+.lilnewsBox{
+  width: 100%;
+  height: 30%;
+  position: relative;
+  transition: 0.2s;
+  border-bottom: 1px solid lightgray;
+  box-sizing: border-box;
+
+}
+
+.lilnewsBox:hover{
+  cursor: pointer;
+  box-shadow: 0 1px 10px 0 gray;
+
+}
+/*Little news box*/
+
+.lilImg{
+  float: left;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+.lilImg img{
+  height: 100%;
+}
+
+
+
+.lilText{
+  width: 60%;
+  height: 100%;
+  font-size: 13px;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#imgBox1{
+  background-image: url('../img/erdo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#imgBox2{
+  background-image: url('../img/isid.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#imgBox3{
+  background-image: url('../img/terane.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Inner Box */

@@ -2,7 +2,7 @@
 /*Little news box*/
 .rightSideLilBoxWrapper{
   width: 100%;
-  height: 300px;
+  height: 400px;
   vertical-align: middle;
   display: flex;
   flex-direction:column;

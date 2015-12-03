@@ -138,7 +138,7 @@ calendar color: #474747;
 .mainContent{
   width: 70%;
   height: auto;
-  border: 1px dotted black;
+  border-right: 1px solid lightgray;
 }
 
 /*Main Content Page end*/
@@ -150,7 +150,6 @@ calendar color: #474747;
 .sideContent{
   width: 30%;
   height: auto;
-  border: 1px dotted black;
 }
 
 /*Side Content Page end*/

@@ -1,5 +1,19 @@
  /*Inner Box */
 
+.newsCardBox{
+  height: auto;
+  width: 100%;
+  border: 1px dotted black;
+}
+.newsCardBox h2{
+  background: #474747;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
 .newsBlock{
   height: 400px;
   width: 100%;
@@ -7,10 +21,10 @@
   display: inline-flex;
   background: white;
   transition: 0.2s;
+
 }
 .newsBlock:hover{
   cursor: pointer;
-  box-shadow: 0 3px 20px 0 gray;
 }
 /*Big Box on the left*/
 
@@ -23,6 +37,8 @@
 }
 .bigBoxWrapper:hover{
   box-shadow: 0 1px 10px 0 gray;
+  -webkit-filter:brightness(115%);
+  filter: brightness(115%);
 }
 
 .bigImgDiv{
@@ -74,6 +90,8 @@ padding: 5px;
 .lilnewsBox:hover{
   cursor: pointer;
   box-shadow: 0 1px 10px 0 gray;
+  -webkit-filter:brightness(120%);
+  filter: brightness(120%);
 
 }
 /*Little news box*/

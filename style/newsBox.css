@@ -3,11 +3,12 @@
 .newsCardBox{
   height: auto;
   width: 100%;
-  border: 1px dotted black;
 }
-.newsCardBox h2{
+.newsCardBox h3{
   background: #474747;
   color: white;
+  height: 35px;
+  line-height: 35px;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
@@ -23,9 +24,7 @@
   transition: 0.2s;
 
 }
-.newsBlock:hover{
-  cursor: pointer;
-}
+
 /*Big Box on the left*/
 
 .bigBoxWrapper{
@@ -37,6 +36,7 @@
 }
 .bigBoxWrapper:hover{
   box-shadow: 0 1px 10px 0 gray;
+  cursor: pointer;
   -webkit-filter:brightness(115%);
   filter: brightness(115%);
 }

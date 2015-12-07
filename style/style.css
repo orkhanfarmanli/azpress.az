@@ -9,11 +9,13 @@ calendar color: #474747;
 
 */
 
-* {
+
+*{
   margin: 0 auto;
   padding: 0;
   font-family: Tahoma;
 }
+
 
 /*inner div - width of content page*/
 
@@ -47,7 +49,6 @@ calendar color: #474747;
 }
 .topHeadMenu li{
   display: inline-block;
-  font-family: Arial;
   text-decoration: none;
   color: #BFBFBF;
 }
@@ -93,33 +94,6 @@ calendar color: #474747;
 /*Banner end*/
 
 
-/*Dropdown Categories*/
-
-
-/*Main menu*/
-
-.mainCategoryMenu{
-  width: 100%;
-  height: 43px;
-  background: #9B9B9B;
-}
-
-/*Main menu end*/
-
-
-/*Sub menu*/
-
-.subCategoryMenu{
-  width: 100%;
-  height: 39px;
-  background: #EEEEEE;
-}
-
-/*Sub menu end*/
-
-
-/*Dropdown Categories end*/
-
 /*Header end*/
 
 
@@ -131,7 +105,7 @@ calendar color: #474747;
 .allContent{
   width: 100%;
   height: auto;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 

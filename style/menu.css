@@ -1,0 +1,69 @@
+/*Dropdown Categories*/
+
+
+
+/*Main menu*/
+
+.mainCategoryMenu{
+  width: 100%;
+  height: 43px;
+  background: #9B9B9B;
+
+}
+.mainMenu ul{
+  list-style-type: none;
+  padding: 0;
+}
+.mainMenu li{
+    display: inline-block;
+    line-height: 43px;
+      font-weight: bold;
+    margin-right: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Main menu end*/
+
+
+/*Sub menu*/
+
+.subCategoryMenu{
+  width: 100%;
+  height: 39px;
+  background: #EEEEEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Sub menu end*/
+
+
+  /*Dropdown Categories end*/

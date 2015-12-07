@@ -10,19 +10,6 @@
   background: #9B9B9B;
 
 }
-.mainMenu ul{
-  list-style-type: none;
-  padding: 0;
-}
-.mainMenu li{
-    display: inline-block;
-    line-height: 43px;
-      font-weight: bold;
-    margin-right: 20px;
-    color: white;
-}
-
-
 
 
 

@@ -1,0 +1,10 @@
+#subCategoryMenu ul{
+  list-style-type: none;
+}
+#subCategoryMenu ul li{
+  display: inline-block;
+
+}
+#huquqTab{
+  display: none;
+}

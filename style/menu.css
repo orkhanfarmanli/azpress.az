@@ -31,7 +31,7 @@
 
 .dropDownMenu ul a{
   font-family: Arial;
-	display:block;
+	display:inline-flex;
   color: white;
 	text-decoration:none;
   font-weight: 700;
@@ -113,7 +113,6 @@
 }
 .dropDownMenu ul ul a:hover{
   color: #F24024;
-  margin-left: 3px;
 
 }
 
@@ -128,11 +127,6 @@
 .dropDownMenu ul li:hover > ul{
 	display:block;
 }
-
-
-
-
-
 
 
 

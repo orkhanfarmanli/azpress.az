@@ -2882,7 +2882,7 @@ var ACPlatforms = {
         watermarktargetdefault: "_blank",
         previewmode: false,
         direction: "horizontal",
-        autoplay: false,
+        autoplay: true,
         pauseonmouseover: true,
         interval: 3E3,
         loop: 0,

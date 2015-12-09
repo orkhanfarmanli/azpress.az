@@ -2,6 +2,26 @@
 
 /*@import url(https://fonts.googleapis.com/css?family=Open+Sans);*/
 
+.videoSlider{
+	margin-top: 20px;
+}
+
+
+.videoSlider h3{
+
+	background: #474747;
+  color: white;
+  line-height: 35px;
+  text-align: center;
+  margin:0;
+}
+
+
+
+#amazingcarousel-1{
+	/*padding-bottom: 20px;*/
+	/*background: #F1462C;*/
+}
 
 
 #amazingcarousel-1 .amazingcarousel-image {
@@ -46,11 +66,11 @@
 /* carousel */
 
 #amazingcarousel-container-1 {
-	padding: 20px 0px;
+	padding: 0 0 20px 0;
 }
 
 #amazingcarousel-1 .amazingcarousel-list-container {
-	padding: 16px 0;
+	padding: 16px 0 16px 0;
 }
 
 /* item */
@@ -68,6 +88,8 @@
 /* arrows */
 
 #amazingcarousel-1 .amazingcarousel-prev {
+	background: red;
+
 	left: 0%;
 	top: 50%;
 	margin-left: -40px;

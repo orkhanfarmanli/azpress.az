@@ -6,7 +6,6 @@
 	margin-top: 20px;
 }
 
-
 .videoSlider h3{
 
 	background: #474747;
@@ -88,18 +87,18 @@
 /* arrows */
 
 #amazingcarousel-1 .amazingcarousel-prev {
-	background: red;
-
-	left: 0%;
-	top: 50%;
-	margin-left: -40px;
+	z-index: 1;
+	left: 40%;
+	top: 110%;
+	margin-left: -25px;
 	margin-top: -24px;
 }
 
 #amazingcarousel-1 .amazingcarousel-next {
-	right: 0%;
-	top: 50%;
-	margin-right: -40px;
+	z-index: 1;
+	right: 40%;
+	top: 110%;
+	margin-right: -25px;
 	margin-top: -24px;
 }
 

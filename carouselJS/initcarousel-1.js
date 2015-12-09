@@ -25,7 +25,7 @@ jQuery(document).ready(function(){
     }
     jQuery("#amazingcarousel-1").amazingcarousel({
         jsfolder:jsFolder,
-        width:172,
+        width:172.5,
         height:110,
         skinsfoldername:"skins",
         interval:3000,
@@ -53,7 +53,7 @@ jQuery(document).ready(function(){
         hoveroverlayimage:"hoveroverlay-64-64-3.png",
         itembottomshadowimage:"itembottomshadow-100-98-3.png",
         lightboxshowdescription:false,
-        width:172,
+        width:172.5,
         navswitchonmouseover:false,
         showhoveroverlayalways:false,
         transitioneasing:"easeOutExpo",
@@ -97,7 +97,7 @@ jQuery(document).ready(function(){
         playvideoimage:"playvideo-64-64-4.png",
         transitionduration:1000,
         visibleitems:3,
-        imagewidth:172,
+        imagewidth:172.5,
         usescreenquery:false,
         bottomshadowimagewidth:110,
         screenquery:{

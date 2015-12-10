@@ -3,7 +3,7 @@
 .newsCardBox{
   height: auto;
   width: 100%;
-  margin-top: 21px;
+  margin-top: 25px;
 }
 .newsCardBox h3{
   background: #474747;
@@ -129,3 +129,7 @@ padding: 5px;
 }
 
 /* Inner Box */
+
+#firstNewsCardBox{
+  margin-top: 0 !important;
+}

@@ -2,13 +2,13 @@
 /*Little news box*/
 .lastNews{
   /*margin-top: 35px;*/
-  margin-top: 25px;
+  margin-top: 20px;
 
 }
 
 .rightSideLastBoxWrapper{
   width: 100%;
-  height: 840px;
+  height: 835px;
   vertical-align: middle;
   display: flex;
   flex-direction:column;

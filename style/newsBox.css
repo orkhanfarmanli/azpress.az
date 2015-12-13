@@ -50,8 +50,8 @@ overflow: hidden;
 
 .bigTextDiv{
 width: 100%;
-height: 25%;
-margin: 15px 0 0 0;
+height: 65px;
+margin: 15px 0 15px 0;
 font-size: 15px;
 text-align: justify;
 overflow: hidden;
@@ -97,9 +97,7 @@ padding: 5px;
   height: 100%;
   overflow: hidden;
 }
-.lilImg img{
-  height: 100%;
-}
+
 
 
 
@@ -112,24 +110,25 @@ padding: 5px;
   padding-right: 10px;
 }
 
-#imgBox1{
-  background-image: url('../img/erdo.jpg');
+
+.centerBackgroundImage{
   background-size: cover;
   background-position: center;
 }
-#imgBox2{
-  background-image: url('../img/isid.jpg');
-  background-size: cover;
-  background-position: center;
-}
-#imgBox3{
-  background-image: url('../img/terane.jpg');
-  background-size: cover;
-  background-position: center;
-}
+
 
 /* Inner Box */
 
 #secondNewsCardBox{
   margin-top: 0 !important;
+}
+
+
+.bigBoxLilTextDetails{
+  padding: 5px;
+  color: gray;
+  font-size: 11px;
+}
+#catrightTextDetails{
+  float: right;
 }

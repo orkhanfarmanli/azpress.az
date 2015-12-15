@@ -1,5 +1,7 @@
  /*Inner Box */
 
+/*main news card box*/
+
 .newsCardBox{
   height: auto;
   width: 100%;
@@ -47,7 +49,6 @@ overflow: hidden;
 
 }
 
-
 .bigTextDiv{
 width: 100%;
 height: 65px;
@@ -58,7 +59,7 @@ overflow: hidden;
 padding: 5px;
 }
 
-/*Big Box on the left*/
+/*Big Box on the left end*/
 
 /*Little news box*/
 .lilBoxWrapper{
@@ -72,6 +73,7 @@ padding: 5px;
 
 }
 
+/*little news main box*/
 .lilnewsBox{
   width: 100%;
   height: 30%;
@@ -81,6 +83,7 @@ padding: 5px;
   box-sizing: border-box;
 
 }
+/*little news main box*/
 
 .lilnewsBox:hover{
   cursor: pointer;
@@ -91,15 +94,17 @@ padding: 5px;
 }
 /*Little news box*/
 
+/*little news image*/
 .lilImg{
   float: left;
   width: 40%;
   height: 100%;
   overflow: hidden;
 }
+/*little news image end*/
 
 
-
+/*little image text*/
 
 .lilText{
   width: 60%;
@@ -109,13 +114,19 @@ padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
 }
+/*little image text end*/
 
+/*main news card box*/
+
+
+/*center background class*/
 
 .centerBackgroundImage{
   background-size: cover;
   background-position: center;
 }
 
+/*center background class end*/
 
 /* Inner Box */
 

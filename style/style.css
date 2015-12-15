@@ -16,19 +16,16 @@ calendar color: #474747;
   font-family: Sans Serif;
 }
 
-
-/*inner div - width of content page*/
+/*inner div - static width of content page*/
 
 .innerDiv{
   width: 1000px;
   height: auto;
 }
 
-/*inner div - width of content page end*/
-
+/*inner div - static width of content page end*/
 
 /*Header*/
-
 
 /*Top Menu*/
 
@@ -120,8 +117,6 @@ calendar color: #474747;
 
 /*Main Content Page end*/
 
-
-
 /*Side Content Page*/
 
 .sideContent{
@@ -131,9 +126,7 @@ calendar color: #474747;
 
 /*Side Content Page end*/
 
-
 /*All content page end*/
-
 
 /*Content end*/
 

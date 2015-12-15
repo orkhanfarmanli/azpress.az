@@ -1,15 +1,16 @@
 
 /*Little news box*/
 
+/*Popular News Block*/
+
 .popularNews{
   height: 455px;
   padding-bottom: 25px;
 }
 
-
+/*popular news header*/
 
 .popularNews h3{
-
   width: 100%;
   margin-top: 0;
   margin-bottom: 20px;
@@ -18,9 +19,9 @@
   text-align: center;
   line-height: 35px;
 }
+/*popular news header end*/
 
-
-
+/*little box wrapper*/
 
 .rightSideLilBoxWrapper{
   height: 90%;
@@ -32,6 +33,7 @@
   text-align: left;
 }
 
+/*little news box*/
 
 .rightSideLilnewsBox{
   width: 100%;
@@ -42,6 +44,8 @@
 
 /*Little news box*/
 
+/*news image div*/
+
 .rightSideLilImg{
   float: left;
   width: 22%;
@@ -49,9 +53,16 @@
   overflow: hidden;
 
 }
+
+/*news image div*/
+
+/*news image*/
 .rightSideLilImg img{
   height: 100%;
 }
+/*news image end*/
+
+/*news text content*/
 
 .rightSideLilText{
   height: 100%;
@@ -62,33 +73,26 @@
   position: relative;
 }
 
+/*news text content end*/
+
+/*news title*/
+
 .newsTitle{
   height: 80%;
   line-height: 170%;
   overflow: hidden;
 }
 
+/*news title end*/
+
+/*news title hover effect*/
 .newsTitle:hover{
   cursor: pointer;
   color: #F24024;
 }
+/*news title hover effect end*/
 
-#rightImgBox1{
-  background-image: url('../img/erdo.jpg');
-  background-size: cover;
-  background-position: center;
-}
-#rightImgBox2{
-  background-image: url('../img/isid.jpg');
-  background-size: cover;
-  background-position: center;
-}
-#rightImgBox3{
-  background-image: url('../img/terane.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
+/*comment and view count*/
 .rightSideLilTextDetails{
   height: 20%;
   color: gray;
@@ -102,6 +106,12 @@
 #rightTextDetails i:first-child{
   margin-right: 10px;
 }
+/*comment and view count end*/
 
+/*little news box end*/
 
-/* Inner Box */
+/*little box wrapper end*/
+
+/*Popular News Block end*/
+
+/* Inner Box end*/

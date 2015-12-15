@@ -1,6 +1,6 @@
 /*Dropdown Categories*/
 
-/*Main menu*/
+/*full menu*/
 
 .mainCategoryMenu {
   width: 100%;
@@ -8,8 +8,9 @@
   background: linear-gradient(#949494, #9d9d9d, #9a9a9a, #949494);
 }
 
-/*Main menu end*/
+/*full menu end*/
 
+/*main menu*/
 
 .mainMenu {
   margin: 0;
@@ -128,8 +129,7 @@
 	display:block;
 }
 
-
-
+/*main menu end*/
 
 /*Sub menu*/
 
@@ -138,3 +138,5 @@
   height: 39px;
   background: #EEEEEE;
 }
+
+/*Sub menu end*/

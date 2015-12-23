@@ -170,9 +170,9 @@
 .in-relatedNewsHeader {
   height: 65px;
   line-height: 20px;
-  padding: 5px 3px;
+  padding: 5px 7px;
   overflow: hidden;
-  font-size: 13px;
+  font-size: 12px;
   color: black;
 }
 .in-relatedNewsHeader a{

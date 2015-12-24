@@ -772,7 +772,7 @@
 
               </div>
 
-              <!--  Last News Test Box -->
+              <!--  Last News Box -->
 
               <div class="lastNews">
                 <h3> Son xəbərlər </h3>
@@ -1123,11 +1123,11 @@
                     <!-- Little Box Text  end-->
 
                   </div>
-                  
+
                 </div>
               </div>
 
-              <!--  Last News Test Box -->
+              <!--  Last News Box  end-->
 
             </div>
 

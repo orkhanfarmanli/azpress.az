@@ -199,10 +199,10 @@
 
 
               <div class="in-location">
-                You are here:
-                <a href="#">Home</a> >
-                <a href="#">Business News</a> >
-                <a href="#" class="in-activePage">News Name</a>
+                Siz buradasınız:
+                <a href="#">Ana Səhifə</a> >
+                <a href="#">Kateqoriya adı</a> >
+                <a href="#" class="in-activePage">Xəbərin adı</a>
               </div>
 
               <div class="in-newsPart">
@@ -641,7 +641,7 @@
 
               </div>
 
-              <!--  Last News Test Box -->
+              <!--  Last News Box -->
 
               <div class="lastNews">
                 <h3> Son xəbərlər </h3>
@@ -939,7 +939,7 @@
                 </div>
               </div>
 
-              <!--  Last News Test Box -->
+              <!--  Last News Box end-->
 
             </div>
 

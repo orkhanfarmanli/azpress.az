@@ -1,69 +1,49 @@
- /*Inner Box */
-
+/*Inner Box */
 .catNewsCardBox{
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
+height: auto;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+position: relative;
 }
-
-
-
 /*Big Box on the left*/
-
 .catBigBoxWrapper{
-  margin-left: 0px !important;
-  margin-top: 20px;
-  width: 48%;
-  height: 100%;
-  transition:  0.2s;
-    /*text-align: center;*/
-
-  /*padding:10px 10px 10px 0;*/
+margin-left: 0px !important;
+margin-top: 20px;
+width: 48%;
+height: 100%;
+transition:  0.2s;
+/*text-align: center;*/
+/*padding:10px 10px 10px 0;*/
 }
-
 .catNewsTitle{
-  height: 60px;
-  overflow: hidden;
+height: 60px;
+overflow: hidden;
 }
-
-
-
 .catNewsTitle a{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-
-
+text-decoration: none;
+color: black;
+font-weight: bold;
 }
-
-
 .catBigBoxWrapper a:hover{
-  color:#F3482E;
+color:#F3482E;
 }
-
-
 .catBigBoxWrapper:hover{
-  box-shadow: 0 1px 10px 0 gray;
-  cursor: pointer;
-  -webkit-filter:brightness(115%);
-  filter: brightness(115%);
+box-shadow: 0 1px 10px 0 gray;
+cursor: pointer;
+-webkit-filter:brightness(115%);
+filter: brightness(115%);
 }
-
 .catBigImgDiv{
 width: 100%;
 height: 50%;
 overflow: hidden;
 }
-
 .catBigImgDiv img{
-  height: auto;
-  width: 100%;
-  margin: 10px 0;
+height: auto;
+width: 100%;
+margin: 10px 0;
 }
-
-
 .catBigTextDiv{
 width: 100%;
 height: 60px;
@@ -71,103 +51,83 @@ margin: 0 0 10px 0;
 font-size: 15px;
 overflow: hidden;
 }
-
 /*Big Box on the left*/
-
 /*Little news box*/
 .lilBoxWrapper{
-  width: 50%;
-  height: 95%;
-  vertical-align: middle;
-  display: flex;
-  flex-direction:column;
-  justify-content: space-between;
-
+width: 50%;
+height: 95%;
+vertical-align: middle;
+display: flex;
+flex-direction:column;
+justify-content: space-between;
 }
-
 #imgBox1{
-  background-image: url('../img/erdo.jpg');
-  background-size: cover;
-  background-position: center;
+background-image: url('../img/erdo.jpg');
+background-size: cover;
+background-position: center;
 }
 #imgBox2{
-  background-image: url('../img/isid.jpg');
-  background-size: cover;
-  background-position: center;
+background-image: url('../img/isid.jpg');
+background-size: cover;
+background-position: center;
 }
 #imgBox3{
-  background-image: url('../img/terane.jpg');
-  background-size: cover;
-  background-position: center;
+background-image: url('../img/terane.jpg');
+background-size: cover;
+background-position: center;
 }
-
 .catRightSideLilTextDetails{
-  height: 20%;
-  color: gray;
-  font-size: 9px;
+height: 20%;
+color: gray;
+font-size: 9px;
 }
-
 #catrightTextDetails{
-  float: right;
+float: right;
 }
 .catDescription{
-  /*width: 100%;*/
-  height: auto;
-  padding: 3px;
+/*width: 100%;*/
+height: auto;
+padding: 3px;
 }
-
-
-
 /* Inner Box */
-
-
-.catPox{
-  width: 100%;
-  display: inline-block;
+.catBox{
+width: 100%;
+display: inline-block;
 }
-
-.pox1{
-  padding: 10px 0;
+.cat-img{
+padding: 10px 0;
 }
-
-.pox1 div{
-  width: 100%;
-  border-radius: 5px;
-  padding: 1px;
+.cat-img div{
+width: 100%;
+border-radius: 5px;
+padding: 1px;
 }
-
-.pox1 div img{
-  width: 100%;
-  border-radius: 3px;
+.cat-img div img{
+width: 100%;
+border-radius: 3px;
 }
-
-.pox1 div img:hover{
-  width: 100%;
-  border-radius: 3px;
-  opacity: .7
+.cat-img div img:hover{
+width: 100%;
+border-radius: 3px;
+opacity: .7
 }
-
-.pox2 div{
-  border-bottom: 1px solid #ccc;
-  font-size: 12px;
+.cat-content div{
+border-bottom: 1px solid #ccc;
+font-size: 12px;
 }
-
-.pox2_2{
-  padding: 5px 0;
-  color: gray;
+.cat-details{
+padding: 5px 0;
+color: gray;
 }
-
-.pox2_2 span:nth-child(1){
-  position: relative;
-  right: 0;
-  display: inline-block;
+.cat-details pan:nth-child(1){
+position: relative;
+right: 0;
+display: inline-block;
 }
-
-.pox2_2 span:nth-child(2){
-  float: right;
-  display: inline-block;
+.cat-details span:nth-child(2){
+float: right;
+display: inline-block;
 }
-
-.pox2_3{
-  padding: 11px 0;
+.cat-text{
+padding: 11px 0;
 }

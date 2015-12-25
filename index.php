@@ -134,144 +134,11 @@
 
     <!-- Header  -->
 
-    <div class="header">
+    <?php
 
+    include 'view/header.php';
 
-      <!-- Top menu -->
-
-      <div class="topHeadMenu">
-        <div class="innerDiv">
-
-          <!-- Top Left Menu -->
-
-          <ul class="topLeftMenu">
-            <a href="#">
-              <li>Ana Səhifə</li>
-            </a>
-            <a href="#">
-              <li>Azpress TV</li>
-            </a>
-            <a href="#">
-              <li>Azpress Özəl</li>
-            </a>
-          </ul>
-
-          <!-- Top Left Menu end -->
-
-          <!-- Top Right Menu -->
-
-          <ul class="topRightMenu">
-            <a href="#">
-              <li>Əlaqə</li>
-            </a>
-            <a href="#">
-              <li>Saytda Reklam</li>
-            </a>
-          </ul>
-
-          <!-- Top Right Menu end -->
-
-        </div>
-      </div>
-
-      <!-- Top menu end -->
-
-      <!-- Banner -->
-
-      <div class="banner innerDiv">
-        <div class="topLogo">
-          <img src="img/logo.png">
-        </div>
-        <div class="backMap">
-        </div>
-        <div class="rightAdvertBox">
-        </div>
-      </div>
-
-      <!-- Banner end -->
-
-
-      <!-- Category Menu  -->
-
-        <!-- Main Category -->
-
-        <div class="mainCategoryMenu">
-
-          <div class="innerDiv">
-
-
-            <div class="mainMenuDiv">
-
-
-              <nav class="dropDownMenu">
-                <ul>
-
-                  <li class="activeTab"><a href="#">SİYASƏT</a>
-                    <ul>
-                      <li><a href="#">Dövlətçilik</a></li>
-                      <li><a href="#">Hakimiyyəti</a></li>
-                      <li><a href="#">Partiya</a></li>
-                      <li><a href="#">Tarix</a></li>
-                      <li><a href="#">Xarici Əlaqələr</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">HÜQUQ</a>
-                    <ul>
-                      <li><a href="#">Sub Menu 1</a></li>
-                      <li><a href="#">Sub Menu 2</a></li>
-                      <li><a href="#">Sub Menu 3</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">İQTİSADİYYAT</a>
-                    <ul>
-                      <li class="dir"><a href="#">Sub Menu 1</a></li>
-                      <li class="dir"><a href="#">Sub Menu 2</a>
-                        <ul>
-                          <li><a href="#">Category 1</a></li>
-                          <li><a href="#">Category 2</a></li>
-                          <li><a href="#">Category 3</a></li>
-                          <li><a href="#">Category 4</a></li>
-                          <li><a href="#">Category 5</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Sub Menu 3</a></li>
-                      <li><a href="#">Sub Menu 4</a></li>
-                      <li><a href="#">Sub Menu 5</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">REGİON</a></li>
-                  <li><a href="#">CƏMİYYƏT</a></li>
-                  <li><a href="#">İDMAN</a></li>
-                  <li><a href="#">MƏDƏNİYYƏT</a></li>
-                  <li><a href="#">ELM</a></li>
-                  <li><a href="#">KİV</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- Main Category end -->
-
-      <!-- Sub Category Menu -->
-
-      <div class="subCategoryMenu">
-
-        <div class="innerDiv">
-
-          <div id="subCategoryMenu">
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Sub Category Menu -->
-
-
-      <!-- Category Menu end -->
-
-    </div>
+    ?>
 
     <!-- Header end  -->
 
@@ -704,103 +571,20 @@
 
 <!-- news box of category -->
 
-<!-- video slider -->
+      <!-- video slider -->
 
-        <div style="width:100%; height:auto;" class="videoSlider">
+        <?php
+          include 'view/videoslider.php';
+        ?>
 
-            <h3>Video Gallery</h3>
-
-              <div id="amazingcarousel-container-1">
-                <div id="amazingcarousel-1" style="display:none;position:relative;width:100%;max-width:720px;margin:0px auto 0px;">
-                  <div class="amazingcarousel-list-container">
-                    <ul class="amazingcarousel-list">
-                      <li class="amazingcarousel-item">
-                        <div class="amazingcarousel-item-container">
-                          <div class="amazingcarousel-image">
-                            <iframe width='162.5' height='122' src="https://www.youtube.com/embed/FyKWUTwSYAs?&theme=dark&autohide=2&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
-                          </div>
-                          <div class="amazingcarousel-title">Test title</div>
-                          <div class="amazingcarousel-description">Test description</div>
-                        </div>
-                      </li>
-                      <li class="amazingcarousel-item">
-                        <div class="amazingcarousel-item-container">
-                          <div class="amazingcarousel-image">
-                            <iframe width='162.5' height='122' src="https://www.youtube.com/embed/FyKWUTwSYAs?&theme=dark&autohide=2&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
-                          </div>
-                          <div class="amazingcarousel-title">Test title</div>
-                          <div class="amazingcarousel-description">Test description</div>
-                        </div>
-                      </li>
-                      <li class="amazingcarousel-item">
-                        <div class="amazingcarousel-item-container">
-                          <div class="amazingcarousel-image">
-                            <iframe width='162.5' height='122' src="https://www.youtube.com/embed/FyKWUTwSYAs?&theme=dark&autohide=2&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
-                          </div>
-                          <div class="amazingcarousel-title">Test title</div>
-                          <div class="amazingcarousel-description">Test description</div>
-                        </div>
-                      </li>
-                      <li class="amazingcarousel-item">
-                        <div class="amazingcarousel-item-container">
-                          <div class="amazingcarousel-image">
-                            <iframe width='162.5' height='122' src="https://www.youtube.com/embed/FyKWUTwSYAs?&theme=dark&autohide=2&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
-                          </div>
-                          <div class="amazingcarousel-title">Test title</div>
-                          <div class="amazingcarousel-description">Test description</div>
-                        </div>
-                      </li>
-                      <li class="amazingcarousel-item">
-                        <div class="amazingcarousel-item-container">
-                          <div class="amazingcarousel-image">
-                            <iframe width='162.5' height='122' src="https://www.youtube.com/embed/FyKWUTwSYAs?&theme=dark&autohide=2&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
-                          </div>
-                          <div class="amazingcarousel-title">Test title</div>
-                          <div class="amazingcarousel-description">Test description</div>
-                        </div>
-                      </li>
-                      <li class="amazingcarousel-item">
-                        <div class="amazingcarousel-item-container">
-                          <div class="amazingcarousel-image">
-                            <iframe width='162.5' height='122' src="https://www.youtube.com/embed/FyKWUTwSYAs?&theme=dark&autohide=2&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
-                          </div>
-                          <div class="amazingcarousel-title">Test title</div>
-                          <div class="amazingcarousel-description">Test description</div>
-                        </div>
-                      </li>
-                      <li class="amazingcarousel-item">
-                        <div class="amazingcarousel-item-container">
-                          <div class="amazingcarousel-image">
-                            <iframe width='162.5' height='122' src="https://www.youtube.com/embed/FyKWUTwSYAs?&theme=dark&autohide=2&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
-                          </div>
-                          <div class="amazingcarousel-title">Test title</div>
-                          <div class="amazingcarousel-description">Test description</div>
-                        </div>
-                      </li>
-                      <li class="amazingcarousel-item">
-                        <div class="amazingcarousel-item-container">
-                          <div class="amazingcarousel-image">
-                            <iframe width='162.5' height='122' src="https://www.youtube.com/embed/FyKWUTwSYAs?&theme=dark&autohide=2&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
-                          </div>
-                          <div class="amazingcarousel-title">Test title</div>
-                          <div class="amazingcarousel-description">Test description</div>
-                        </div>
-                      </li>
-                    </ul>
-                    <div class="amazingcarousel-prev"></div>
-                    <div class="amazingcarousel-next"></div>
-                  </div>
-                  <div class="amazingcarousel-nav"></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- video slider end-->
+      <!-- video slider end-->
 
           </div>
 
           <!-- side content after writer slider -->
-            <div class="col-md-4 sideContent"></div>
+
+          <div class="col-md-4 sideContent"></div>
+
           <!-- side content after writer slider -->
 
           </div>

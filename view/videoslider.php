@@ -1,7 +1,7 @@
 
   <!-- video slider -->
 
-        <div style="width:100%; height:auto;" class="videoSlider">
+        <!-- <div style="width:100%; height:auto;" class="videoSlider">
             <h3>Video Gallery</h3>
               <div id="amazingcarousel-container-1">
                 <div id="amazingcarousel-1" style="display:none;position:relative;width:100%;max-width:720px;margin:0px auto 0px;">
@@ -86,6 +86,6 @@
                   <div class="amazingcarousel-nav"></div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
     <!-- video slider end-->

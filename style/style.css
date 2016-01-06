@@ -16,6 +16,10 @@ calendar color: #474747;
   font-family: Sans Serif;
 }
 
+body{
+   background:#F9F9F9;
+}
+
 /*inner div - static width of content page*/
 
 .innerDiv{

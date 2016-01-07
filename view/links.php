@@ -1,3 +1,6 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link href="style/bootstrap.min.css" rel="stylesheet">
 <script src="script/jquery-1.11.3.js"></script>
 <script src="script/bootstrap.min.js"></script>

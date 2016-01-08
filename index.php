@@ -88,26 +88,28 @@
             <!-- Right Side Content Page -->
 
             <?php
-              include 'view/rightblock.php';
+              include 'view/rightBlock.php';
             ?>
 
             <!-- Right Side Content Page end -->
 
 
           </div>
-          <div class="row">
-            <div class="innerDiv">
 
-              <!-- Writer Slider -->
+          <!-- Writer Slider -->
+
+
+        <div class="row">
+          <div class="innerDiv">
 
               <?php
                 include 'view/writerSlider.php';
               ?>
 
-              <!-- Writer Slider end -->
-
           </div>
         </div>
+
+        <!-- Writer Slider end -->
 
 
   <div class="row">
@@ -183,7 +185,7 @@
       <!-- video slider -->
 
         <?php
-          include 'view/videoslider.php';
+          include 'view/videoSlider.php';
         ?>
 
       <!-- video slider end-->
@@ -203,7 +205,7 @@
           <div class="row">
             <div class=" col-md-12">
               <?php
-                include 'view/imagegallery.php';
+                include 'view/imageGallery.php';
               ?>
             </div>
           </div>
@@ -220,9 +222,11 @@
     <!-- General Content Page end-->
 
     <!-- Footer -->
+
     <?php
       include 'view/footer.php';
     ?>
+
     <!-- Footer end-->
 
   </div>

@@ -16,17 +16,17 @@
             // writer array [
 
             writerArray = [
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com'],
-              ['img/sample.jpg','Filankəs Filankəsov','https://www.facebook.com']
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news']
               ];
 
             // writer array
@@ -55,20 +55,28 @@
 
                   //  writer img
 
+                          writerImgDiv = document.createElement('DIV');
+                          writerImgDiv.className = 'writerImgDiv';
+
                           writerImg = document.createElement('img');
                           writerImg.src = writerArray[i][0];
+                          writerImgDiv.appendChild(writerImg);
 
                   // writer img end
 
                   // writer description
 
-                          writerDesc = document.createElement('DIV');
-                          writerDescSpan = document.createElement('span');
-                          writerDescText = document.createTextNode(writerArray[i][1]);
+                          writerDescDiv = document.createElement('DIV');
+                          writerDescDiv.className = 'writerDescDiv';
+                          writerHeader = document.createElement('h3');
+                          writerHeaderText = document.createTextNode(1+i);
+                          writerHeader.appendChild(writerHeaderText);
+                          writerDescDiv.appendChild(writerHeader);
 
                   // writer description end
 
-                          writerLink.appendChild(writerImg);
+                          writerLink.appendChild(writerImgDiv);
+                          writerLink.appendChild(writerDescDiv);
                           writerBox.appendChild(writerLink);
                           writerList.appendChild(writerBox);
 
@@ -90,35 +98,38 @@
               count-=240;
 
 
+              if (count<(4-writerArray.length)*240) {
+
+                    count = 0;
+
+                  }
+
+
               writerList.style.transition = '0.6s all ease';
 
               writerList.style.transform = 'translateX('+count+'px)';
 
 
-                if (count == (4-writerArray.length)*240) {
-                        count=240;
-                        console.log(count);
-                    }
-
-
-                  }
+          }
 
             function prevWriter(){
 
               count+=240;
 
+
               if (count==240) {
+
                   count = (4-writerArray.length)*240;
-                  console.log(count);
 
-              }
+                  }
 
+
+                console.log(count);
 
               writerList.style.transition = '0.6s all ease';
 
               writerList.style.transform = 'translateX('+count+'px)';
 
-              console.log(count);
 
             }
 

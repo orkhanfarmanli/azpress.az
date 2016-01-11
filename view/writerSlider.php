@@ -16,17 +16,18 @@
             // writer array [
 
             writerArray = [
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news'],
-              ['img/man.jpg','Filankəs Filankəsov','https://www.facebook.com', 'sample text for the writer news']
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer text for the writer text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news']
               ];
 
             // writer array
@@ -38,13 +39,13 @@
             // writer list </ul>
 
 
-            // writer box creation
+    // writer box creation
 
-                  for (var i = 0; i < writerArray.length; i++) {
+        for (var i = 0; i < writerArray.length; i++) {
 
-                    // writer box
+             // writer box
 
-                          writerBox = document.createElement('li');
+                      writerBox = document.createElement('li');
 
                     // writer link
 
@@ -64,16 +65,50 @@
 
                   // writer img end
 
-                  // writer description
+                  // writer description < >
+
 
                           writerDescDiv = document.createElement('DIV');
                           writerDescDiv.className = 'writerDescDiv';
-                          writerHeader = document.createElement('h3');
-                          writerHeaderText = document.createTextNode(1+i);
-                          writerHeader.appendChild(writerHeaderText);
-                          writerDescDiv.appendChild(writerHeader);
 
-                  // writer description end
+                          // writer news header div < >
+
+                          writerHeaderDiv = document.createElement('DIV');
+                          writerHeaderDiv.className = 'writerHeaderDiv';
+                          writerDescDiv.appendChild(writerHeaderDiv);
+
+                          // writer news header div </>
+
+                          // writer name div < >
+
+                          writerNameDiv = document.createElement('DIV');
+                          writerNameDiv.className = 'writerNameDiv';
+                          writerDescDiv.appendChild(writerNameDiv);
+
+                          // writer name div </>
+
+
+                    // writer news header < >
+
+                          writerHeader = document.createElement('span');
+                          writerHeaderText = document.createTextNode(writerArray[i][3]);
+                          writerHeader.appendChild(writerHeaderText);
+
+                    // writer news header </>
+
+                    // writer name div < >
+
+                          writerName = document.createElement('span');
+                          writerNameText = document.createTextNode(writerArray[i][1]);
+                          writerName.appendChild(writerNameText);
+
+                    // writer name div </>
+
+
+                  // writer description </>
+
+                          writerHeaderDiv.appendChild(writerHeader);
+                          writerNameDiv.appendChild(writerName);
 
                           writerLink.appendChild(writerImgDiv);
                           writerLink.appendChild(writerDescDiv);
@@ -82,8 +117,7 @@
 
                     // writer box end
 
-
-                        }
+                  }
 
             // writer box creation end
 

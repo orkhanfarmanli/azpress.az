@@ -16,7 +16,7 @@
             // writer array [
 
             writerArray = [
-              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer text for the writer text for the writer news'],
+              ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the the writer news'],
               ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
               ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],
               ['img/man.jpg','Filankəs Filankəsov','https://github.com/orkhanfarmanli', 'sample text for the writer news'],

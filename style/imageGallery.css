@@ -1,13 +1,94 @@
-
-/*image gallery*/
-
 .imageGallery{
   width: 100%;
   height: 400px;
-  background: gray;
+  background: lightgray;
   margin-top: 20px;
-  color: white;
-  text-align: center;
+  position: relative;
+}
+.galBox{
+  overflow: hidden;
+  position: absolute;
+
 }
 
-/*image gallery end*/
+.galBox:hover > .galImgBox{
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+.galBox:hover > .galText{
+  background: rgba(241, 70, 44, 0.9);
+  bottom: 0;
+
+}
+
+.galImgBox{
+  transition: 0.3s all ease;
+  width: 100%;
+  height: 100%;
+}
+
+.galText{
+  transition: 0.5s all ease;
+  position: absolute;
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 5px;
+  color: white;
+
+}
+
+
+#galBox1{
+  width: 325px;
+  height: 225px;
+}
+
+
+#galBox2{
+  width: 200px;
+  height: 175px;
+  bottom: 0;
+}
+#galBox3{
+  width: 125px;
+  height: 175px;
+  bottom: 0;
+  left: 200px;
+}
+#galBox4{
+  width: 225px;
+  height: 125px;
+  left: 325px;
+}
+#galBox5{
+  width: 225px;
+  height: 175px;
+  left: 325px;
+  top: 125px;
+}
+#galBox6{
+  width: 225px;
+  height: 100px;
+  bottom: 0;
+  left: 325px;
+}
+
+#galBox7{
+  width: 200px;
+  height: 200px;
+  right: 250px;
+}
+#galBox8{
+  width: 200px;
+  height: 200px;
+  right: 250px;
+  bottom: 0;
+}
+
+#galBox9{
+  width: 250px;
+  height: 400px;
+  right: 0;
+}

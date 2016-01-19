@@ -1,3 +1,5 @@
+/*image gallery main div*/
+
 .imageGallery{
   width: 100%;
   height: 400px;
@@ -5,11 +7,22 @@
   margin-top: 20px;
   position: relative;
 }
+
+/*image gallery main div end*/
+
+
+/* gallery image box */
+
 .galBox{
   overflow: hidden;
   position: absolute;
 
 }
+
+/* gallery image box end*/
+
+
+/*hover effects*/
 
 .galBox:hover > .galImgBox{
   -webkit-filter: brightness(80%);
@@ -18,15 +31,23 @@
 .galBox:hover > .galText{
   background: rgba(241, 70, 44, 0.9);
   bottom: 0;
-
 }
+
+/*hover effects end*/
+
+
+/*thumbs*/
 
 .galImgBox{
   transition: 0.3s all ease;
   width: 100%;
   height: 100%;
-  /*border: 1px solid white;*/
 }
+
+/*thumbs end*/
+
+
+/*text box*/
 
 .galText{
   transition: 0.5s all ease;
@@ -40,6 +61,10 @@
 
 }
 
+/*text box end*/
+
+
+/*thumbnails*/
 
 #galBox1{
   width: 325px;
@@ -93,3 +118,5 @@
   height: 400px;
   right: 0;
 }
+
+/*thumbnails end*/

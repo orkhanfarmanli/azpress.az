@@ -11,28 +11,53 @@
 
 }
 
+/* Writer slider Div end*/
+
+
+/*navigation buttons*/
 
 #w-navButt{
   height: inherit;
   width: 2%;
   background: rgb(71, 71, 71);
-
   z-index: 2;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  display: table;
+  transition: 0.4s all ease;
 }
 
+#w-navButt i{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*navigation buttons end*/
+
+
+/*navigation button hover effect*/
 
 #w-navButt:hover{
-  transition: 0.4s all ease;
   cursor: pointer;
   background: rgb(241, 70, 44);
-
 }
+
+/*navigation button hover effect end*/
+
+
+/*slider content box (the visible part)*/
 
 .w-sliderContent{
   width: 96%;
   height: inherit;
-
 }
+
+/*slider content box end*/
+
+
+/*whole content box*/
+
 .writerList{
   width: 2000%;
   padding: 0;
@@ -40,13 +65,22 @@
   height: inherit;
 }
 
+/*whole content box end*/
+
+
+/*writer list box*/
+
 .writerList li{
   display: inline-block;
   list-style: none;
   width: 240px;
   height: inherit;
-
 }
+
+/*writer list box end*/
+
+
+/*writer image div & image itself*/
 
 .writerImgDiv{
   float: left;
@@ -58,6 +92,11 @@
 .writerImgDiv img{
   height: 120px;
 }
+
+/*writer image div & image itself end*/
+
+
+/*writer description div*/
 
 .writerDescDiv{
   float: right;
@@ -82,3 +121,5 @@
   padding: 5px;
   font-size: 12px;
 }
+
+/*writer description div end*/

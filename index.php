@@ -12,13 +12,7 @@
 
   <title>azpress.az</title>
 
-  <!-- Main Slider Control Panel -->
 
-  <?php
-    include 'view/sliderScriptStyle.php';
-  ?>
-
-  <!-- Main Slider Control Panel end-->
 
 </head>
 

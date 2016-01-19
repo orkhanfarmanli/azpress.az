@@ -4,6 +4,9 @@
 
         <div onclick='prevWriter()' class='w-prevButt' id='w-navButt'>
 
+          <i class="fa fa-angle-left"></i>
+
+
         </div>
 
 
@@ -175,6 +178,9 @@
 
 
         <div onclick='nextWriter()' class='w-nextButt' id='w-navButt'>
+
+          <i class="fa fa-angle-right"></i>
+
 
         </div>
 

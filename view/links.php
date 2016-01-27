@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="style/newsBox.css">
 <link rel="stylesheet" href="style/lastNews.css">
 <link rel="stylesheet" href="style/menu.css">
-<link rel="stylesheet" href="style/subMenu.css">
 <link rel="stylesheet" href="style/writerSlider.css">
 <link rel="stylesheet" href="style/imageGallery.css">
 <link rel="stylesheet" type="text/css" href="style/innerNews.css">

@@ -11,7 +11,7 @@
       <!-- Top Left Menu -->
 
       <ul class="topLeftMenu">
-        <a href="#">
+        <a href="http://localhost/azpress.az/">
           <li>Ana Səhifə</li>
         </a>
         <a href="#">

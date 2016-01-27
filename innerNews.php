@@ -3,31 +3,16 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="style/bootstrap.min.css" rel="stylesheet">
-  <script src="script/jquery-1.11.3.js"></script>
-  <script src="script/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" href="style/popularNews.css">
-  <link rel="stylesheet" href="style/font-awesome.css">
-  <link rel="stylesheet" href="style/newsBox.css">
-  <link rel="stylesheet" href="style/lastNews.css">
-  <link rel="stylesheet" href="style/menu.css">
-  <link rel="stylesheet" href="style/subMenu.css">
-  <link rel="stylesheet" href="style/writerSlider.css">
-  <link rel="stylesheet" href="style/imageGallery.css">
-  <script src="carouselJS/jquery.js"></script>
-  <script src="carouselJS/amazingcarousel.js"></script>
-  <link rel="stylesheet" type="text/css" href="style/innerNews.css">
-  <link rel="stylesheet" type="text/css" href="carouselJS/initcarousel-1.css">
-  <script src="carouselJS/initcarousel-1.js"></script>
-  <script type="text/javascript" src="script/script.js"></script>
-  <script type="text/javascript" src="sliderJS/jssor.slider.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style/slider.css">
+  <!-- source links -->
 
+	<?php
+    include 'view/links.php';
+  ?>
 
-  <title>Group Project</title>
+		<!-- source links end -->
+
+		<title>azpress.az</title>
+
 
 </head>
 
@@ -40,146 +25,13 @@
 
     <!-- Header  -->
 
-    <div class="header">
+		<?php
 
+  	  include 'view/header.php';
 
-      <!-- Top menu -->
+    ?>
 
-      <div class="topHeadMenu">
-        <div class="innerDiv">
-
-          <!-- Top Left Menu -->
-
-          <ul class="topLeftMenu">
-            <a href="#">
-              <li>Ana Səhifə</li>
-            </a>
-            <a href="#">
-              <li>Azpress TV</li>
-            </a>
-            <a href="#">
-              <li>Azpress Özəl</li>
-            </a>
-          </ul>
-
-          <!-- Top Left Menu end -->
-
-          <!-- Top Right Menu -->
-
-          <ul class="topRightMenu">
-            <a href="#">
-              <li>Əlaqə</li>
-            </a>
-            <a href="#">
-              <li>Saytda Reklam</li>
-            </a>
-          </ul>
-
-          <!-- Top Right Menu end -->
-
-        </div>
-      </div>
-
-      <!-- Top menu end -->
-
-      <!-- Banner -->
-
-      <div class="banner innerDiv">
-        <div class="topLogo">
-          <img src="img/logo.png">
-        </div>
-        <div class="backMap">
-        </div>
-        <div class="rightAdvertBox">
-        </div>
-      </div>
-
-      <!-- Banner end -->
-
-
-      <!-- Category Menu  -->
-
-      <!-- Main Category -->
-
-      <div class="mainCategoryMenu">
-
-        <div class="innerDiv">
-
-
-          <div class="mainMenuDiv">
-
-
-            <nav class="dropDownMenu">
-              <ul>
-
-                <li class="activeTab"><a href="#">SİYASƏT</a>
-                  <ul>
-                    <li><a href="#">Dövlətçilik</a></li>
-                    <li><a href="#">Hakimiyyəti</a></li>
-                    <li><a href="#">Partiya</a></li>
-                    <li><a href="#">Tarix</a></li>
-                    <li><a href="#">Xarici Əlaqələr</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">HÜQUQ</a>
-                  <ul>
-                    <li><a href="#">Sub Menu 1</a></li>
-                    <li><a href="#">Sub Menu 2</a></li>
-                    <li><a href="#">Sub Menu 3</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">İQTİSADİYYAT</a>
-                  <ul>
-                    <li class="dir"><a href="#">Sub Menu 1</a></li>
-                    <li class="dir"><a href="#">Sub Menu 2</a>
-                      <ul>
-                        <li><a href="#">Category 1</a></li>
-                        <li><a href="#">Category 2</a></li>
-                        <li><a href="#">Category 3</a></li>
-                        <li><a href="#">Category 4</a></li>
-                        <li><a href="#">Category 5</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Sub Menu 3</a></li>
-                    <li><a href="#">Sub Menu 4</a></li>
-                    <li><a href="#">Sub Menu 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">REGİON</a></li>
-                <li><a href="#">CƏMİYYƏT</a></li>
-                <li><a href="#">İDMAN</a></li>
-                <li><a href="#">MƏDƏNİYYƏT</a></li>
-                <li><a href="#">ELM</a></li>
-                <li><a href="#">KİV</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Main Category end -->
-
-      <!-- Sub Category Menu -->
-
-      <div class="subCategoryMenu">
-
-        <div class="innerDiv">
-
-          <div id="subCategoryMenu">
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Sub Category Menu -->
-
-
-      <!-- Category Menu end -->
-
-    </div>
-
-    <!-- Header end  -->
+			<!-- Header end  -->
 
     <!-- General Content Page -->
 
@@ -949,14 +801,18 @@
 
 
 
-          <div class="row">
-            <div class="innerDiv">
+          <!-- Image Gallery -->
 
-              <div class="imageGallery">
-                <h1>Image Gallery</h1>
-              </div>
-            </div>
-          </div>
+					<div class="row">
+						<div class=" col-md-12">
+							<?php
+                include 'view/imageGallery.php';
+              ?>
+						</div>
+					</div>
+
+					<!-- Image Gallery end-->
+          
           <!-- All content page end-->
         </div>
       </div>
@@ -965,16 +821,11 @@
 
       <!-- Footer -->
 
-      <div class="footer">
-        <div class="innerDiv">
-          <div class="footerLeft">
-            <span> © 2015 Azpress.az. Bütün hüquqlar qorunur. </span>
-          </div>
-          <div class="footerRight"></div>
-        </div>
-      </div>
+    	<?php
+          include 'view/footer.php';
+        ?>
 
-      <!-- Footer end-->
+    		<!-- Footer end-->
 
     </div>
 

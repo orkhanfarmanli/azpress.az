@@ -1,3 +1,4 @@
-<div class="slider">
+  <div class="mainSlider">
 
-</div>
+
+  </div>

@@ -3,7 +3,6 @@
 .writerSlider{
   width: 100%;
   height: 120px;
-  background: lightgray;
   margin:15px 0;
   display: inline-flex;
   overflow: hidden;

@@ -25,6 +25,7 @@
 
 .in-newsPart {
   margin-top: 30px;
+  background: white;
 }
 .in-newsPart .in-newsImg img {
   width: 100%;
@@ -215,7 +216,6 @@ color: black;
   color: white;
   text-align: center;
 }
-
 
 
 /* comment section end*/

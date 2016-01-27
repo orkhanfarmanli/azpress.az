@@ -1,133 +1,183 @@
-/*Inner Box */
-.catNewsCardBox{
-height: auto;
-width: 100%;
-display: flex;
-flex-wrap: wrap;
-position: relative;
+/*category highlights box*/
+
+.categoryHighlightsBox {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  padding: 0 !important;
 }
-/*Big Box on the left*/
-.catBigBoxWrapper{
-margin-left: 0px !important;
-margin-top: 20px;
-width: 48%;
-height: 100%;
-transition:  0.2s;
-/*text-align: center;*/
-/*padding:10px 10px 10px 0;*/
+
+/*category highlights box end*/
+
+
+/*wrapper of big box on the left*/
+
+.catHighBigBoxWrapper {
+  width: 50%;
+  height: inherit;
+  padding: 20px 0 20px 15px;
+  position: relative;
 }
-.catNewsTitle{
-height: 60px;
-overflow: hidden;
+
+/*wrapper of big box on the left end*/
+
+
+/*big box itsef*/
+
+.catHighBigBox {
+  width: 100%;
+  height: 100%;
 }
-.catNewsTitle a{
-text-decoration: none;
-color: black;
-font-weight: bold;
+
+/*big box itsef end*/
+
+
+/*big img box*/
+
+.catHighBigImgBox {
+  height: 100%;
+  overflow: hidden;
+  box-shadow: #808080 0px 1px 5px 0px;
+  transition: 0.3s all ease;
 }
-.catBigBoxWrapper a:hover{
-color:#F3482E;
+
+/*big img box end*/
+
+
+/*category highlights lil box wrapper*/
+
+.catHighLilBoxWrapper {
+  width: 50%;
+  height: inherit;
+  padding: 10px 5px 10px 10px;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
-.catBigBoxWrapper:hover{
-box-shadow: 0 1px 10px 0 gray;
-cursor: pointer;
--webkit-filter:brightness(115%);
-filter: brightness(115%);
+
+/*category highlights lil box wrapper end*/
+
+
+/*category highlights lil box*/
+
+.catHighLilBox {
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  position: relative;
 }
-.catBigImgDiv{
-width: 100%;
-height: 50%;
-overflow: hidden;
+
+/*category highlights lil box end*/
+
+
+/*little image box*/
+
+.catHighLilImgBox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: #808080 0px 1px 5px 0px;
+  transition: 0.3s all ease;
 }
-.catBigImgDiv img{
-height: auto;
-width: 100%;
-margin: 10px 0;
+
+/*little image box end*/
+
+
+/*category highlights big box news text*/
+/*width is 100% - padding of the parent element*/
+/*if it was written in fucking sass, this wouldn't be such wierd*/
+
+.catHighBigBoxNewsText {
+  width: calc(100% - 15px);
+  height: auto;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  padding: 2%;
+  font-size: 15px;
+  line-height: 140%;
 }
-.catBigTextDiv{
-width: 100%;
-height: 60px;
-margin: 0 0 10px 0;
-font-size: 15px;
-overflow: hidden;
+
+.catHighLilBoxNewsText {
+  width: calc(100% - 20px);
+  height: auto;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  padding: 2%;
+  font-size: 12px;
+  line-height: 140%;
 }
-/*Big Box on the left*/
-/*Little news box*/
-.lilBoxWrapper{
-width: 50%;
-height: 95%;
-vertical-align: middle;
-display: flex;
-flex-direction:column;
-justify-content: space-between;
+
+/*hover effects*/
+
+.catHighBigBoxWrapper a:hover .catHighBigImgBox {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
 }
-#imgBox1{
-background-image: url('../img/erdo.jpg');
-background-size: cover;
-background-position: center;
+.catHighLilBox a:hover .catHighLilImgBox {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
 }
-#imgBox2{
-background-image: url('../img/isid.jpg');
-background-size: cover;
-background-position: center;
+
+/*hover effects end*/
+
+
+/*category box which contains all news*/
+
+.categoryBoxWrapper {
+  width: 70%;
+  padding: 0 5px;
 }
-#imgBox3{
-background-image: url('../img/terane.jpg');
-background-size: cover;
-background-position: center;
+
+/*category box which contains all news end*/
+
+
+/*category news*/
+
+.catNews {
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  text-decoration: none;
 }
-.catRightSideLilTextDetails{
-height: 20%;
-color: gray;
-font-size: 9px;
+
+/*category news end*/
+
+.catNewsBoxWrapper {
+  width: 100%;
+  height: inherit;
+  background: white;
+  box-shadow: #808080 0px 1px 5px 0px;
 }
-#catrightTextDetails{
-float: right;
+.catNewsBoxWrapper a {
+  text-decoration: none;
+  color: black;
 }
-.catDescription{
-/*width: 100%;*/
-height: auto;
-padding: 3px;
+
+/*category news image*/
+
+.catNewsImg {
+  width: 100%;
+  height: 80%;
 }
-/* Inner Box */
-.catBox{
-width: 100%;
-display: inline-block;
+
+/*category news image end*/
+
+
+/*news header*/
+
+.catNewsDesc {
+  width: 100%;
+  height: 20%;
+  font-size: 13px;
+  line-height: 170%;
+  overflow: hidden;
+  padding: 5px;
+  text-align: center;
 }
-.cat-img{
-padding: 10px 0;
-}
-.cat-img div{
-width: 100%;
-border-radius: 5px;
-padding: 1px;
-}
-.cat-img div img{
-width: 100%;
-border-radius: 3px;
-}
-.cat-img div img:hover{
-width: 100%;
-border-radius: 3px;
-opacity: .7
-}
-.cat-content div{
-border-bottom: 1px solid #ccc;
-font-size: 12px;
-}
-.cat-details{
-padding: 5px 0;
-color: gray;
-}
-.cat-details pan:nth-child(1){
-position: relative;
-right: 0;
-display: inline-block;
-}
-.cat-details span:nth-child(2){
-float: right;
-display: inline-block;
-}
-.cat-text{
-padding: 11px 0;
-}
+
+/*news header end*/

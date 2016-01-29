@@ -4,7 +4,6 @@
   width: 100%;
   padding: 2px 0;
   font-size: 13px;
-  color: #B0B0B0;
   border-top: 1px solid #E0E0E0;
   border-bottom: 1px solid #E0E0E0;
 }
@@ -26,6 +25,7 @@
 .in-newsPart {
   margin-top: 30px;
   background: white;
+  box-shadow: 0px 1px 5px #D3D3D3;
 }
 .in-newsPart .in-newsImg img {
   width: 100%;
@@ -57,6 +57,11 @@
   text-align: justify;
 }
 
+.in-newsContent{
+  padding: 15px;
+}
+
+
 /* active news part end*/
 
 
@@ -73,16 +78,20 @@
 .in-rating {
   width: 30%;
   height: 100px;
-  border: 1px solid lightgray;
   float: left;
   text-align: center;
   color: gray;
+  box-shadow: 0px 1px 5px #D3D3D3;
+  background: white;
+
 }
 .in-rating h4 {
   margin-top: -15px;
   padding: 5px;
   width: 40%;
   background: white;
+  box-shadow: 0px 1px 5px #D3D3D3;
+
 }
 .in-rating span {
   color: #333;
@@ -91,6 +100,7 @@
 }
 .in-rating ul {
   list-style: none;
+  margin-top: 20px;
 }
 .in-rating li {
   display: inline-block;
@@ -102,16 +112,20 @@
 .in-recommend {
   width: 60%;
   height: 100px;
-  border: 1px solid lightgray;
   float: right;
   text-align: center;
   color: gray;
+  box-shadow: 0px 1px 5px #D3D3D3;
+  background: white;
+
 }
 .in-recommend h4 {
   margin-top: -15px;
   padding: 5px;
   width: 20%;
   background: white;
+  box-shadow: 0px 1px 5px #D3D3D3;
+
 }
 
 /*social part end*/
@@ -133,11 +147,16 @@
 .in-relatedNewsBlock {
   width: 100%;
   height: 270px;
-  display: flex;
 	padding: 0;
   margin: 0;
-	-webkit-flex-flow: row wrap;
-	justify-content: space-around;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+-webkit-flex-flow: row wrap;
+justify-content: space-between;
 }
 
 /*whole block of related news*/
@@ -146,13 +165,17 @@
 /*related news box*/
 
 .in-relatedNewsDiv {
-  width: 24%;
+  width: 170px;
   height: 270px;
   transition: .2s all ease;
+  box-shadow: 0px 1px 5px #D3D3D3;
+  background: white;
+  display: inline-block;
+
 }
 .in-relatedNewsDiv:hover{
   cursor: pointer;
-  box-shadow: 0px 2px 15px;
+  box-shadow: 0px 2px 15px lightgray;
 }
 
 /*related news image*/
@@ -178,6 +201,7 @@
 }
 .in-relatedNewsHeader a{
 color: black;
+text-decoration: none;
 }
 
 /*related news header end*/
@@ -210,11 +234,18 @@ color: black;
 
 .in-commentSection{
   width: 100%;
-  height: 200px;
-  background: gray;
+  height: auto;
+  background: white;
   margin-top: 20px;
-  color: white;
+  color: black;
   text-align: center;
+  box-shadow: 0px 1px 5px #D3D3D3;
+}
+
+.in-commentSection h3{
+  padding: 10px 8px;
+  margin: 0;
+  float: left;
 }
 
 

@@ -149,14 +149,8 @@
   height: 270px;
 	padding: 0;
   margin: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-
--webkit-flex-flow: row wrap;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 /*whole block of related news*/
@@ -165,13 +159,14 @@ justify-content: space-between;
 /*related news box*/
 
 .in-relatedNewsDiv {
-  width: 170px;
+  width: 160px;
   height: 270px;
   transition: .2s all ease;
   box-shadow: 0px 1px 5px #D3D3D3;
   background: white;
   display: inline-block;
-
+  margin: 0;
+  padding: 0;
 }
 .in-relatedNewsDiv:hover{
   cursor: pointer;

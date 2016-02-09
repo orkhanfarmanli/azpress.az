@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	
+
 <!-- facebook comment section script -->
 
 	<div id="fb-root"></div>
@@ -154,45 +154,9 @@
 
 									<!-- related news block -->
 
-									<div class="in-relatedNewsBlock">
+									<ul class="in-relatedNewsBlock">
 
-										<div class="in-relatedNewsDiv">
-
-											<a href="#">
-
-												<div style="background-image: url('img/qedir.jpg');" class="in-relatedNewsImg centerBackgroundImage">
-
-												</div>
-
-												<div class="in-relatedNewsText">
-
-													<div class="in-relatedNewsHeader">
-														<span> <a href="#">Header of the news goes here and nowhere else do you understand? </a> </span>
-													</div>
-
-
-													<div class="in-relatedNewsDetails">
-
-														<span>
-                          23 Dekabr 2015
-                        </span>
-
-														<span>
-                          <i class="fa fa-eye"> 45544 </i>
-                          <i class="fa fa-comments"> 5</i>
-                        </span>
-
-													</div>
-
-												</div>
-
-											</a>
-
-										</div>
-
-
-
-										<div class="in-relatedNewsDiv">
+										<li class="in-relatedNewsDiv">
 
 											<a href="#">
 
@@ -224,46 +188,9 @@
 
 											</a>
 
-										</div>
+										</li>
 
-
-										<div class="in-relatedNewsDiv">
-
-											<a href="#">
-
-												<div style="background-image: url('img/qedir.jpg');" class="in-relatedNewsImg centerBackgroundImage">
-
-												</div>
-
-												<div class="in-relatedNewsText">
-
-													<div class="in-relatedNewsHeader">
-														<span> <a href="#">Header of the news goes here and nowhere else do you understand? </a> </span>
-													</div>
-
-
-													<div class="in-relatedNewsDetails">
-
-														<span>
-                          23 Dekabr 2015
-                        </span>
-
-														<span>
-                          <i class="fa fa-eye"> 45544 </i>
-                          <i class="fa fa-comments"> 5</i>
-                        </span>
-
-													</div>
-
-												</div>
-
-											</a>
-
-										</div>
-
-
-
-										<div class="in-relatedNewsDiv">
+										<li class="in-relatedNewsDiv">
 
 											<a href="#">
 
@@ -295,10 +222,83 @@
 
 											</a>
 
-										</div>
+										</li>
+
+										<li class="in-relatedNewsDiv">
+
+											<a href="#">
+
+												<div style="background-image: url('img/qedir.jpg');" class="in-relatedNewsImg centerBackgroundImage">
+
+												</div>
+
+												<div class="in-relatedNewsText">
+
+													<div class="in-relatedNewsHeader">
+														<span> <a href="#">Header of the news goes here and nowhere else do you understand? </a> </span>
+													</div>
 
 
-									</div>
+													<div class="in-relatedNewsDetails">
+
+														<span>
+                          23 Dekabr 2015
+                        </span>
+
+														<span>
+                          <i class="fa fa-eye"> 45544 </i>
+                          <i class="fa fa-comments"> 5</i>
+                        </span>
+
+													</div>
+
+												</div>
+
+											</a>
+
+										</li>
+
+										<li class="in-relatedNewsDiv">
+
+											<a href="#">
+
+												<div style="background-image: url('img/qedir.jpg');" class="in-relatedNewsImg centerBackgroundImage">
+
+												</div>
+
+												<div class="in-relatedNewsText">
+
+													<div class="in-relatedNewsHeader">
+														<span> <a href="#">Header of the news goes here and nowhere else do you understand? </a> </span>
+													</div>
+
+
+													<div class="in-relatedNewsDetails">
+
+														<span>
+                          23 Dekabr 2015
+                        </span>
+
+														<span>
+                          <i class="fa fa-eye"> 45544 </i>
+                          <i class="fa fa-comments"> 5</i>
+                        </span>
+
+													</div>
+
+												</div>
+
+											</a>
+
+										</li>
+
+
+
+
+
+
+
+									</ul>
 
 									<!-- related news block -->
 

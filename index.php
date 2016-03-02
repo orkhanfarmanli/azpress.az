@@ -13,8 +13,6 @@
 
   <title>azpress.az</title>
 
-
-
 </head>
 
 <body>
